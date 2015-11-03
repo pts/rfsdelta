@@ -1,6 +1,8 @@
 README for rfsdelta
 by pts@fazekas.hu at Thu Jan 11 17:33:59 CET 2007
 
+Linux 2.6 kernel module for monitoring recursive filesystem changes.
+
 rfsdelta is a kernel module for the Linux 2.6 series, which collects all
 filesystem inode changes (recursively), and reports them to a userspace
 process. It is similar to inotify, dnotify (but provides recurisve
